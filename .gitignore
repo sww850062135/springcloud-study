@@ -1,3 +1,9 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
 # Project exclude paths
 /cloud-api-commons/target/
 /cloud-consumer-order80/target/
@@ -5,3 +11,9 @@
 /cloud-provider-payment8002/target/
 /cloud-eureka-server7001/target/
 /cloud-eureka-server7002/target/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
